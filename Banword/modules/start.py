@@ -32,10 +32,10 @@ def start_btn(u):
             [InlineKeyboardButton("𝗔𝗱𝗱 𝗠𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url=f"https://t.me/{u}?startgroup=true")],
             [InlineKeyboardButton("𝗛𝗲𝗹𝗽", callback_data="show_help")],
             [
-                InlineKeyboardButton("💬 𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/dns_support_group"),
+                InlineKeyboardButton("💬 𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/dnsmusicupdate"),
                 InlineKeyboardButton("🚀 𝗨𝗽𝗱𝗮𝘁𝗲", url="https://t.me/Team_Dns_Network"),
             ],
-            [InlineKeyboardButton("𝗢𝘄𝗻𝗲𝗿", url="https://t.me/II_RAJPUT_SHIV_OP_II")],
+            [InlineKeyboardButton("𝗢𝘄𝗻𝗲𝗿", url="https://t.me/dnsmusicupdate")],
         ]
     )
 
