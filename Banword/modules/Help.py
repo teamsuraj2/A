@@ -13,7 +13,7 @@ from Banword import Banword as app
 async def show_help(_, query: CallbackQuery):
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("𝗔𝗱𝗺𝗶𝗻 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀", callback_data="help_admin")],
+            [InlineKeyboardButton("ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_admin")],
             [InlineKeyboardButton("« Back", callback_data="back_to_start")],
         ]
     )
@@ -26,10 +26,10 @@ async def show_help(_, query: CallbackQuery):
 @app.on_callback_query(filters.regex("^help_admin$"))
 async def help_admin(_, query: CallbackQuery):
     await query.message.edit_text(
-        """**Admin Commands:**
-        Add me to your group i can delete that Messgaes contains the abuse 
+        """**ᴀᴅᴍɪɴ ᴄᴏᴍᴍᴀɴᴅs:**
+        ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴄᴀɴ ᴅᴇʟᴇᴛᴇ ᴛʜᴀᴛ ᴍᴇssᴀɢᴇs ᴄᴏɴᴛᴀɪɴs ᴛʜᴇ ᴀʙᴜsᴇ 
         
-•𝖯𝗈𝗐𝖾𝗋𝖽 𝖡𝗒 𝖳𝖾𝖺𝗆 𝖣𝗇𝗌 = @Team_Dns_Network""",
+•ᴛʜɪs ʙᴏᴛ ᴍᴀᴋᴇ ʙʏ ᴛᴇᴀᴍ ᴛᴡs = @TwsAssociation""",
         reply_markup=InlineKeyboardMarkup(
             [[InlineKeyboardButton("« Back", callback_data="show_help")]]
         ),
