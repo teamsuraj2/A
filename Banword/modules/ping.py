@@ -35,7 +35,7 @@ async def ping_command(_, message: Message):
     speed = round((end - start) * 1000)
     uptime = get_readable_time(time.time() - start_time)
 
-    buttons = [[InlineKeyboardButton("🚀 𝗨𝗽𝗱𝗮𝘁𝗲", url="https://t.me/Team_Dns_Network")]]
+    buttons = [[InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/TwsAssociation")]]
 
     await reply.edit_text(
         f"**ʜᴇʏ! ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴀɴᴅ ᴋɪᴄᴋɪɴɢ!**\n\n"
