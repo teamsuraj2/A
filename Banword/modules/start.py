@@ -16,12 +16,12 @@ START_IMG = "https://files.catbox.moe/iem38x.jpg"
 
 def get_start_caption(user):
     return f"""
-**𝖧𝖾𝗒** {user.mention} 
+**ʜᴇʏ** {user.mention} 
 
-🤖 I am a **Abuse Remover Bot**.
-I delete messages with Abuse word and restrict users who have Banword .
+🤖 ɪ ᴀᴍ ᴀ **ᴀʙᴜsᴇ ʀᴇᴍᴏᴠᴇʀ ʙᴏᴛ**.
+ɪ ᴅᴇʟᴇᴛᴇ ᴍᴇssᴀɢᴇs ᴡɪᴛʜ ᴀʙᴜsᴇ ᴡᴏʀᴅ ᴀɴᴅ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs ᴡʜᴏ ʜᴀᴠᴇ ʙᴀɴᴡᴏʀᴅ .
 
-🚫 I also delete messages with **Banword**.
+🚫 ɪ ᴀʟsᴏ ᴅᴇʟᴇᴛᴇ ᴍᴇssᴀɢᴇs ᴡɪᴛʜ **ᴀʙᴜsᴇᴡᴏʀᴅ**.
 """
 
 
@@ -29,13 +29,13 @@ def start_btn(u):
 
     return InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton("𝗔𝗱𝗱 𝗠𝗲 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽", url=f"https://t.me/{u}?startgroup=true")],
-            [InlineKeyboardButton("𝗛𝗲𝗹𝗽", callback_data="show_help")],
+            [InlineKeyboardButton("ᴀᴅᴅ ᴍᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url=f"https://t.me/{u}?startgroup=true")],
+            [InlineKeyboardButton("ʜᴇʟᴘ", callback_data="show_help")],
             [
-                InlineKeyboardButton("💬 𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url="https://t.me/dnsmusicupdate"),
-                InlineKeyboardButton("🚀 𝗨𝗽𝗱𝗮𝘁𝗲", url="https://t.me/Team_Dns_Network"),
+                InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url="https://t.me/TwsSupportGroup"),
+                InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ", url="https://t.me/TwsAssociation"),
             ],
-            [InlineKeyboardButton("𝗢𝘄𝗻𝗲𝗿", url="https://t.me/dnsmusicupdate")],
+            [InlineKeyboardButton("ᴏᴡɴᴇʀ", url="https://t.me/TwsAssociation")],
         ]
     )
 
