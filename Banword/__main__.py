@@ -16,9 +16,9 @@ async def roy_bot():
         importlib.import_module("Banword.modules." + all_module)
     print(f"• @{(await Banword.get_me()).username} B𝗈𝗍 Started Successfully.")
     await idle()
-    print("• Don't edit baby, otherwise you get an error: @dns_support_group")
+    print("• Don't edit baby, otherwise you get an error: @TwsAssociation")
     await Banword.send_message(
-        LOGGER_ID, "**✦ ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ.\n\n✦ ᴊᴏɪɴ - @Team_Dns_Network**"
+        LOGGER_ID, "**✦ ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ.\n\n✦ ᴊᴏɪɴ - @TwsAssociation**"
     )
 
 
